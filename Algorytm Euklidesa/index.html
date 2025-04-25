@@ -5,23 +5,26 @@
   <title>Euclid Quotient Finder</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <label>The great Euclid Quotient Finder</label><br><br>
-  <label>Enter two numbers that you want to find biggest divider of</label>
-  <br> <br>
-  <input type="number" id="num1"><br><br>
-  <input type="number" id="num2"><br><br>
-  
-  <button onclick="calculate()">Find</button>
-  <br><br>
-  <label>Result:</label>
-  
-  <div id="suma"></div>
-  <div id="number_error"></div>
-  <div id="not_number_error"></div>
-  <div id="euclid_result"></div>
+  <div class = "container">
+    <label>Euclidean algorithm</label><br><br>
+    <label>Compute the greatest common divisor (GCD) of two integers</label>
+    <br> <br>
+    <input type="number" id="num1"><br><br>
+    <input type="number" id="num2"><br><br>
+    
+    <button onclick="calculate()">Find</button>
+    <br><br>
+    <label>Result:</label>
+    <br><br>
+    
+    <div id="suma"></div>
+    <div id="number_error"></div>
+    <div id="not_number_error"></div>
+    <div id="euclid_result"></div>
 
-  <script src="script.js"></script>
-
+    <script src="script.js"></script>
+  </div>
 </body>
 </html>
